@@ -1,14 +1,10 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }  
+#pho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-  /*Menu CSS*/
-
-  .direct {
+.direct {
     height: 100%;
     width: 0;
     position: fixed;
@@ -52,7 +48,7 @@ html, body {
     .direct a {font-size: 18px;}
   }
 
-.direct .closebtn {
+  .direct .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
