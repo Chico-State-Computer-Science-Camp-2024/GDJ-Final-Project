@@ -1,14 +1,24 @@
+function openDirect() {
+  document.getElementById("direct").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeDirect() {
+  document.getElementById("direct").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
 let map;
 let mapMoon;
 let ISS;
 
 function preload() {
   //Texture for Earth
-  map = loadImage("./images/earth1.png");
+  map = loadImage("./imagesJ/earth1.png");
   //Texture for the Moon
-  mapMoon = loadImage("./images/moon.png");
+  mapMoon = loadImage("./imagesJ/moon.png");
   //Texture highlight for the ISS
-  ISS = loadImage("./images/yellow.jpg")
+  ISS = loadImage("./imagesJ/yellow.jpg")
   
 }
 

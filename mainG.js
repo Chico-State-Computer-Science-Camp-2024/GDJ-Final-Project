@@ -1,4 +1,14 @@
-  // holds image
+function openDirect() {
+  document.getElementById("direct").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeDirect() {
+  document.getElementById("direct").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+// holds image
 let img;
 
 
@@ -30,7 +40,7 @@ let colorOffset=0;
 
   // image loading function
 function preload() {
-  img = loadImage('/images/maybe.gif ');  }
+  img = loadImage('/imagesG/maybe.gif ');  }
 
 
   // this thing sets up the canvas
