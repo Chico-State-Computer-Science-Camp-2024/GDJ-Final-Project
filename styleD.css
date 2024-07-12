@@ -11,7 +11,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    backdrop-filter: blur(8px);
+    background-color: rgb(92, 125, 135);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -21,7 +21,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     display: block;
     transition: 0.3s;
   }
@@ -63,7 +63,7 @@
   transition: transform .2s;
   width: 95px;
   height: 25px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 1 auto;
   top: 20px;
   left: 10px;
